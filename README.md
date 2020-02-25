@@ -5,7 +5,7 @@ With this module you can easily integrate the lexoffice Public API into your C# 
 
 ## Table of contents
 - Configuration
-    - [Example config.json](#example-configjson)
+    - [Example](#example)
 ___
 #### Example
 ```cs
