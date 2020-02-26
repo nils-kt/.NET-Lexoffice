@@ -23,6 +23,7 @@
 #region Usings
 
 using System;
+using System.Security.Authentication;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using RestSharp;
@@ -60,7 +61,7 @@ namespace NET_Lexoffice
             IRestResponse response = await client.ExecuteAsync(request);
             if (response.IsSuccessful)
                 return response.Content;
-            return JObject.Parse(response.Content).SelectToken("message").Value<string>();
+            throw new AuthenticationException("Invalid API Key");
 
         }
     }
