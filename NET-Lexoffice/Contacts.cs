@@ -23,6 +23,7 @@
 #region Usings
 
 using System.Threading.Tasks;
+using RestSharp;
 
 #endregion
 
@@ -31,17 +32,17 @@ namespace NET_Lexoffice
     public class Contacts
     {
         private readonly string _apiKey;
-        private readonly HTTPClient httpClient;
+        private readonly HTTPClient _httpClient;
 
         internal Contacts(string apiKey)
         {
             _apiKey = apiKey;
-            httpClient = new HTTPClient(apiKey);
+            _httpClient = new HTTPClient(apiKey);
         }
 
         public async Task<string> GetAllContacts(int page = 0)
         {
-            return await httpClient.Send(0, $"contacts/?page={page}", null);
+            return await _httpClient.Send(Method.GET, $"contacts/?page={page}", null);
         }
     }
 }
