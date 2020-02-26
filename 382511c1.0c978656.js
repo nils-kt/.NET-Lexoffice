@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{96:function(e){e.exports=JSON.parse('{"docsSidebars":{"someSidebar":[{"type":"category","label":"Quick Start","items":[{"type":"link","label":"Start","href":"/.NET-Lexoffice/docs/start"}]}]},"permalinkToSidebar":{"/.NET-Lexoffice/docs/start":"someSidebar"}}')}}]);
