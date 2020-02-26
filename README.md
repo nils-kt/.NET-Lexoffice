@@ -1,12 +1,11 @@
 # .NET-Lexoffice
 With this module you can easily integrate the lexoffice Public API into your C# (.NET) project.
 
-<p align="center"> 
-    
-![.NET Core](https://github.com/nils-kt/.NET-Lexoffice/workflows/.NET%20Core/badge.svg?branch=master) [![GitHub issues](https://img.shields.io/github/issues/nils-kt/.NET-Lexoffice)](https://github.com/nils-kt/.NET-Lexoffice/issues) [![GitHub license](https://img.shields.io/github/license/nils-kt/.NET-Lexoffice)](https://github.com/nils-kt/.NET-Lexoffice/blob/master/LICENSE)
-
+<p align="center">
+    <img src="https://github.com/nils-kt/.NET-Lexoffice/workflows/.NET%20Core/badge.svg" />
+    <a href="https://github.com/nils-kt/.NET-Lexoffice/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/nils-kt/.NET-Lexoffice"></a>
+    <a href="https://github.com/nils-kt/.NET-Lexoffice/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/nils-kt/.NET-Lexoffice"></a>
 </p>
-
 
 ## Table of contents
 - Configuration
