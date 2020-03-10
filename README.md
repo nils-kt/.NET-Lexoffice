@@ -1,5 +1,5 @@
 # .NET-Lexoffice
-With this module you can easily integrate the lexoffice Public API into your C# (.NET) project.
+With this module you can easily integrate the lexoffice Public API into your C# (.NET Core) project.
 
 <p align="center">
     <a href="https://github.com/nils-kt/.NET-Lexoffice/actions?query=workflow%3A%22.NET+Core%22"><img src="https://github.com/nils-kt/.NET-Lexoffice/workflows/.NET%20Core/badge.svg" /></a>
